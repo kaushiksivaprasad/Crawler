@@ -27,7 +27,7 @@ public class CrawlerTest extends Crawler {
 		dp.changeObeyRobotExclusion(false);
 		dp.changeMaxPageSize(500);
 		dp.changeUserAgent("Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko Mycrawler contact me @ k_sivapr@live.concordia.ca");
-		setMaxDepth(1);
+		setMaxDepth(4);
 		setDownloadParameters(dp);
 		setDomain(Crawler.WEB);
 		setLinkType(Crawler.HYPERLINKS);
